@@ -89,7 +89,7 @@ class DrawingView @JvmOverloads constructor(
     override fun onDraw(canvas: Canvas?) {
 
         super.onDraw(canvas)
- 
+
 
         canvas?.drawPath(path, paint)
 
